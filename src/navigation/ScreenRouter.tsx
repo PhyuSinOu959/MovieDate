@@ -21,4 +21,11 @@ export const SCREENS: Screens = {
     //   headerShown: false,
     },
   },
+  MOVIE_DETAILS: {
+    name: 'MovieDetails',
+    component: MovieDetailsScreen,
+    options: {
+      title: 'Movie Details',
+    },
+  },
 }

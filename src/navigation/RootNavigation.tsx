@@ -9,6 +9,7 @@ const RootNavigation = () => {
         <NavigationContainer>
             <Stack.Navigator>
                 <Stack.Screen name={SCREENS.HOME.name} component={SCREENS.HOME.component} />
+                <Stack.Screen name={SCREENS.MOVIE_DETAILS.name} component={SCREENS.MOVIE_DETAILS.component} />
             </Stack.Navigator>
         </NavigationContainer>
     )
