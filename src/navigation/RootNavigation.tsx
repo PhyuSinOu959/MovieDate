@@ -10,6 +10,8 @@ const RootNavigation = () => {
             <Stack.Navigator>
                 <Stack.Screen name={SCREENS.HOME.name} component={SCREENS.HOME.component} />
                 <Stack.Screen name={SCREENS.MOVIE_DETAILS.name} component={SCREENS.MOVIE_DETAILS.component} />
+                <Stack.Screen name={SCREENS.PROFILE.name} component={SCREENS.PROFILE.component} />
+                <Stack.Screen name={SCREENS.FAV_LIST.name} component={SCREENS.FAV_LIST.component} />
             </Stack.Navigator>
         </NavigationContainer>
     )
